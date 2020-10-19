@@ -1,0 +1,820 @@
+2020-10-19 12:43:01 DEBUG LoggingPlatform:46 - DBpediaSpotlight.extract Left ventricular hypertrabeculation fulfilling noncompaction cardiomyopathy criteria has been detected in athletes.
+2020-10-19 12:43:02 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2020-10-19 12:43:02 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-10-19 12:43:02 DEBUG PoolingHttpClientConnectionManager:266 - Connection request: [route: {}->http://192.168.8.12:2222][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-10-19 12:43:02 DEBUG PoolingHttpClientConnectionManager:310 - Connection leased: [id: 0][route: {}->http://192.168.8.12:2222][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-10-19 12:43:02 DEBUG MainClientExec:234 - Opening connection {}->http://192.168.8.12:2222
+2020-10-19 12:43:02 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to /192.168.8.12:2222
+2020-10-19 12:43:02 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 192.168.8.133:57803<->192.168.8.12:2222
+2020-10-19 12:43:02 DEBUG MainClientExec:255 - Executing request GET /rest/annotate/?confidence=0.5&support=0&text=Left+ventricular+hypertrabeculation+fulfilling+noncompaction+cardiomyopathy+criteria+has+been+detected+in+athletes. HTTP/1.1
+2020-10-19 12:43:02 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2020-10-19 12:43:02 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2020-10-19 12:43:02 DEBUG headers:133 - http-outgoing-0 >> GET /rest/annotate/?confidence=0.5&support=0&text=Left+ventricular+hypertrabeculation+fulfilling+noncompaction+cardiomyopathy+criteria+has+been+detected+in+athletes. HTTP/1.1
+2020-10-19 12:43:02 DEBUG headers:136 - http-outgoing-0 >> Accept: application/json
+2020-10-19 12:43:02 DEBUG headers:136 - http-outgoing-0 >> Host: 192.168.8.12:2222
+2020-10-19 12:43:02 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2020-10-19 12:43:02 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_172)
+2020-10-19 12:43:02 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-10-19 12:43:02 DEBUG wire:73 - http-outgoing-0 >> "GET /rest/annotate/?confidence=0.5&support=0&text=Left+ventricular+hypertrabeculation+fulfilling+noncompaction+cardiomyopathy+criteria+has+been+detected+in+athletes. HTTP/1.1[\r][\n]"
+2020-10-19 12:43:02 DEBUG wire:73 - http-outgoing-0 >> "Accept: application/json[\r][\n]"
+2020-10-19 12:43:02 DEBUG wire:73 - http-outgoing-0 >> "Host: 192.168.8.12:2222[\r][\n]"
+2020-10-19 12:43:02 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-10-19 12:43:02 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_172)[\r][\n]"
+2020-10-19 12:43:02 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-10-19 12:43:02 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "server: grizzly/1.9.48[\r][\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "Date: Mon, 19 Oct 2020 19:43:21 GMT[\r][\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "398[\r][\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "{[\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "  "@text": "Left ventricular hypertrabeculation fulfilling noncompaction cardiomyopathy criteria has been detected in athletes.",[\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "  "@confidence": "0.5",[\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "  "@support": "0",[\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "  "@types": "",[\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "  "@sparql": "",[\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "  "@policy": "whitelist",[\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "  "Resources":   [[\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Ventricular_system",[\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "      "@support": "341",[\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "      "@types": "Wikidata:Q4936952,DBpedia:Brain,DBpedia:AnatomicalStructure",[\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "ventricular",[\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "5",[\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.9976824156001141",[\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.002069993743169967"[\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Noncompaction_cardiomyopathy",[\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "      "@support": "12",[\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "      "@types": "Wikidata:Q12136,DBpedia:Disease",[\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "noncompaction cardiomyopathy",[\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "47",[\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "1.0",[\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.0"[\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "    }[\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "  ][\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "}[\r][\n]"
+2020-10-19 12:43:21 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2020-10-19 12:43:21 DEBUG headers:125 - http-outgoing-0 << server: grizzly/1.9.48
+2020-10-19 12:43:21 DEBUG headers:125 - http-outgoing-0 << Access-Control-Allow-Origin: *
+2020-10-19 12:43:21 DEBUG headers:125 - http-outgoing-0 << Content-Type: application/json
+2020-10-19 12:43:21 DEBUG headers:125 - http-outgoing-0 << Transfer-Encoding: chunked
+2020-10-19 12:43:21 DEBUG headers:125 - http-outgoing-0 << Date: Mon, 19 Oct 2020 19:43:21 GMT
+2020-10-19 12:43:21 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "0[\r][\n]"
+2020-10-19 12:43:21 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-10-19 12:43:21 DEBUG PoolingHttpClientConnectionManager:342 - Connection [id: 0][route: {}->http://192.168.8.12:2222] can be kept alive indefinitely
+2020-10-19 12:43:21 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
+2020-10-19 12:43:21 DEBUG PoolingHttpClientConnectionManager:349 - Connection released: [id: 0][route: {}->http://192.168.8.12:2222][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-10-19 12:43:21 DEBUG PoolingHttpClientConnectionManager:409 - Connection manager is shutting down
+2020-10-19 12:43:21 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-0: Close connection
+2020-10-19 12:43:21 DEBUG PoolingHttpClientConnectionManager:415 - Connection manager shut down
+2020-10-19 12:48:21 DEBUG LoggingPlatform:46 - DBpediaSpotlight.extract NFIL3 is a transcription factor, a protein that switches certain genes on and off. Earlier studies had focused on its role in immune cells, but a team led by Lora Hooper at the University of Texas Southwestern Medical Center, Dallas, discovered that NFIL3 is also found in cells in the inner lining, or epithelium, of the mouse small intestine.
+2020-10-19 12:48:22 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2020-10-19 12:48:22 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-10-19 12:48:22 DEBUG PoolingHttpClientConnectionManager:266 - Connection request: [route: {}->http://192.168.8.12:2222][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-10-19 12:48:22 DEBUG PoolingHttpClientConnectionManager:310 - Connection leased: [id: 0][route: {}->http://192.168.8.12:2222][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-10-19 12:48:22 DEBUG MainClientExec:234 - Opening connection {}->http://192.168.8.12:2222
+2020-10-19 12:48:22 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to /192.168.8.12:2222
+2020-10-19 12:48:22 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 192.168.8.133:57840<->192.168.8.12:2222
+2020-10-19 12:48:22 DEBUG MainClientExec:255 - Executing request GET /rest/annotate/?confidence=0.5&support=0&text=NFIL3+is+a+transcription+factor%2C+a+protein+that+switches+certain+genes+on+and+off.+Earlier+studies+had+focused+on+its+role+in+immune+cells%2C+but+a+team+led+by+Lora+Hooper+at+the+University+of+Texas+Southwestern+Medical+Center%2C+Dallas%2C+discovered+that+NFIL3+is+also+found+in+cells+in+the+inner+lining%2C+or+epithelium%2C+of+the+mouse+small+intestine. HTTP/1.1
+2020-10-19 12:48:22 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2020-10-19 12:48:22 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2020-10-19 12:48:22 DEBUG headers:133 - http-outgoing-0 >> GET /rest/annotate/?confidence=0.5&support=0&text=NFIL3+is+a+transcription+factor%2C+a+protein+that+switches+certain+genes+on+and+off.+Earlier+studies+had+focused+on+its+role+in+immune+cells%2C+but+a+team+led+by+Lora+Hooper+at+the+University+of+Texas+Southwestern+Medical+Center%2C+Dallas%2C+discovered+that+NFIL3+is+also+found+in+cells+in+the+inner+lining%2C+or+epithelium%2C+of+the+mouse+small+intestine. HTTP/1.1
+2020-10-19 12:48:22 DEBUG headers:136 - http-outgoing-0 >> Accept: application/json
+2020-10-19 12:48:22 DEBUG headers:136 - http-outgoing-0 >> Host: 192.168.8.12:2222
+2020-10-19 12:48:22 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2020-10-19 12:48:22 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_172)
+2020-10-19 12:48:22 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 >> "GET /rest/annotate/?confidence=0.5&support=0&text=NFIL3+is+a+transcription+factor%2C+a+protein+that+switches+certain+genes+on+and+off.+Earlier+studies+had+focused+on+its+role+in+immune+cells%2C+but+a+team+led+by+Lora+Hooper+at+the+University+of+Texas+Southwestern+Medical+Center%2C+Dallas%2C+discovered+that+NFIL3+is+also+found+in+cells+in+the+inner+lining%2C+or+epithelium%2C+of+the+mouse+small+intestine. HTTP/1.1[\r][\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 >> "Accept: application/json[\r][\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 >> "Host: 192.168.8.12:2222[\r][\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_172)[\r][\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "server: grizzly/1.9.48[\r][\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "Date: Mon, 19 Oct 2020 19:48:22 GMT[\r][\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "e01[\r][\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "{[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "  "@text": "NFIL3 is a transcription factor, a protein that switches certain genes on and off. Earlier studies had focused on its role in immune cells, but a team led by Lora Hooper at the University of Texas Southwestern Medical Center, Dallas, discovered that NFIL3 is also found in cells in the inner lining, or epithelium, of the mouse small intestine.",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "  "@confidence": "0.5",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "  "@support": "0",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "  "@types": "",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "  "@sparql": "",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "  "@policy": "whitelist",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "  "Resources":   [[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/NFIL3",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@support": "8",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "NFIL3",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "0",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "1.0",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.0"[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Transcription_factor",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@support": "2381",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "transcription factor",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "11",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.999999999766942",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "2.330325051954496E-10"[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Protein",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@support": "53207",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "protein",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "35",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.9999998938066085",[\n]"
+2020-10-19 12:48:22 DEBUG wire:87 - http-outgoing-0 << "      "@percentageOfSecondRank": "1.0"
+2020-10-19 12:48:22 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2020-10-19 12:48:22 DEBUG headers:125 - http-outgoing-0 << server: grizzly/1.9.48
+2020-10-19 12:48:22 DEBUG headers:125 - http-outgoing-0 << Access-Control-Allow-Origin: *
+2020-10-19 12:48:22 DEBUG headers:125 - http-outgoing-0 << Content-Type: application/json
+2020-10-19 12:48:22 DEBUG headers:125 - http-outgoing-0 << Transfer-Encoding: chunked
+2020-10-19 12:48:22 DEBUG headers:125 - http-outgoing-0 << Date: Mon, 19 Oct 2020 19:48:22 GMT
+2020-10-19 12:48:22 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "27861094192732E-7"[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Lora_Hooper",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@support": "2",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "Lora Hooper",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "158",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.9999994962626734",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.0"[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Texas",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@support": "136284",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@types": "Wikidata:Q3455524,Schema:Place,Schema:AdministrativeArea,DBpedia:Region,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:AdministrativeRegion",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "Texas",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "191",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.989306558381755",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.010570431623319521"[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Dallas",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@support": "27285",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@types": "Wikidata:Q515,Wikidata:Q486972,Schema:Place,Schema:City,DBpedia:Settlement,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:City",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "Dallas",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "226",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.999911110911593",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "7.554344827793439E-5"[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/NFIL3",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@support": "8",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "NFIL3",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "250",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "1.0",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.0"[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Epithelium",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@support": "3046",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@types": "Wikidata:Q4936952,DBpedia:AnatomicalStructure",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "epithelium",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "303",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.8684371449588663",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.15148998756814175"[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Mouse",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@support": "4909",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "mouse",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "322",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.992433921441594",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.007552002757489936"[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Small_intestine",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@support": "1396",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@types": "Wikidata:Q4936952,DBpedia:AnatomicalStructure",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "small intestine",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "328",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.9996828833610166",[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "3.065339853568951E-4"[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "    }[\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "  ][\n]"
+2020-10-19 12:48:22 DEBUG wire:87 - http-outgoing-0 << "}"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "0[\r][\n]"
+2020-10-19 12:48:22 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-10-19 12:48:22 DEBUG PoolingHttpClientConnectionManager:342 - Connection [id: 0][route: {}->http://192.168.8.12:2222] can be kept alive indefinitely
+2020-10-19 12:48:22 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
+2020-10-19 12:48:22 DEBUG PoolingHttpClientConnectionManager:349 - Connection released: [id: 0][route: {}->http://192.168.8.12:2222][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-10-19 12:48:22 DEBUG PoolingHttpClientConnectionManager:409 - Connection manager is shutting down
+2020-10-19 12:48:22 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-0: Close connection
+2020-10-19 12:48:22 DEBUG PoolingHttpClientConnectionManager:415 - Connection manager shut down
+2020-10-19 13:00:30 DEBUG LoggingPlatform:46 - DBpediaSpotlight.extract NFIL3 is a transcription factor, a protein that switches certain genes on and off. Earlier studies had focused on its role in immune cells, but a team led by Lora Hooper at the University of Texas Southwestern Medical Center, Dallas, discovered that NFIL3 is also found in cells in the inner lining, or epithelium, of the mouse small intestine.
+2020-10-19 13:00:31 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2020-10-19 13:00:31 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-10-19 13:00:31 DEBUG PoolingHttpClientConnectionManager:266 - Connection request: [route: {}->http://192.168.8.12:2222][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-10-19 13:00:31 DEBUG PoolingHttpClientConnectionManager:310 - Connection leased: [id: 0][route: {}->http://192.168.8.12:2222][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-10-19 13:00:31 DEBUG MainClientExec:234 - Opening connection {}->http://192.168.8.12:2222
+2020-10-19 13:00:31 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to /192.168.8.12:2222
+2020-10-19 13:00:31 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 192.168.8.133:57930<->192.168.8.12:2222
+2020-10-19 13:00:31 DEBUG MainClientExec:255 - Executing request GET /rest/annotate/?confidence=0.5&support=0&text=NFIL3+is+a+transcription+factor%2C+a+protein+that+switches+certain+genes+on+and+off.+Earlier+studies+had+focused+on+its+role+in+immune+cells%2C+but+a+team+led+by+Lora+Hooper+at+the+University+of+Texas+Southwestern+Medical+Center%2C+Dallas%2C+discovered+that+NFIL3+is+also+found+in+cells+in+the+inner+lining%2C+or+epithelium%2C+of+the+mouse+small+intestine. HTTP/1.1
+2020-10-19 13:00:31 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2020-10-19 13:00:31 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2020-10-19 13:00:31 DEBUG headers:133 - http-outgoing-0 >> GET /rest/annotate/?confidence=0.5&support=0&text=NFIL3+is+a+transcription+factor%2C+a+protein+that+switches+certain+genes+on+and+off.+Earlier+studies+had+focused+on+its+role+in+immune+cells%2C+but+a+team+led+by+Lora+Hooper+at+the+University+of+Texas+Southwestern+Medical+Center%2C+Dallas%2C+discovered+that+NFIL3+is+also+found+in+cells+in+the+inner+lining%2C+or+epithelium%2C+of+the+mouse+small+intestine. HTTP/1.1
+2020-10-19 13:00:31 DEBUG headers:136 - http-outgoing-0 >> Accept: application/json
+2020-10-19 13:00:31 DEBUG headers:136 - http-outgoing-0 >> Host: 192.168.8.12:2222
+2020-10-19 13:00:31 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2020-10-19 13:00:31 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_172)
+2020-10-19 13:00:31 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 >> "GET /rest/annotate/?confidence=0.5&support=0&text=NFIL3+is+a+transcription+factor%2C+a+protein+that+switches+certain+genes+on+and+off.+Earlier+studies+had+focused+on+its+role+in+immune+cells%2C+but+a+team+led+by+Lora+Hooper+at+the+University+of+Texas+Southwestern+Medical+Center%2C+Dallas%2C+discovered+that+NFIL3+is+also+found+in+cells+in+the+inner+lining%2C+or+epithelium%2C+of+the+mouse+small+intestine. HTTP/1.1[\r][\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 >> "Accept: application/json[\r][\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 >> "Host: 192.168.8.12:2222[\r][\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_172)[\r][\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "server: grizzly/1.9.48[\r][\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "Date: Mon, 19 Oct 2020 20:00:31 GMT[\r][\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "e01[\r][\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "{[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "  "@text": "NFIL3 is a transcription factor, a protein that switches certain genes on and off. Earlier studies had focused on its role in immune cells, but a team led by Lora Hooper at the University of Texas Southwestern Medical Center, Dallas, discovered that NFIL3 is also found in cells in the inner lining, or epithelium, of the mouse small intestine.",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "  "@confidence": "0.5",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "  "@support": "0",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "  "@types": "",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "  "@sparql": "",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "  "@policy": "whitelist",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "  "Resources":   [[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/NFIL3",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@support": "8",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "NFIL3",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "0",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "1.0",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.0"[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Transcription_factor",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@support": "2381",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "transcription factor",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "11",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.999999999766942",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "2.330325051954496E-10"[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Protein",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@support": "53207",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "protein",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "35",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.9999998938066085",[\n]"
+2020-10-19 13:00:31 DEBUG wire:87 - http-outgoing-0 << "      "@percentageOfSecondRank": "1.0"
+2020-10-19 13:00:31 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2020-10-19 13:00:31 DEBUG headers:125 - http-outgoing-0 << server: grizzly/1.9.48
+2020-10-19 13:00:31 DEBUG headers:125 - http-outgoing-0 << Access-Control-Allow-Origin: *
+2020-10-19 13:00:31 DEBUG headers:125 - http-outgoing-0 << Content-Type: application/json
+2020-10-19 13:00:31 DEBUG headers:125 - http-outgoing-0 << Transfer-Encoding: chunked
+2020-10-19 13:00:31 DEBUG headers:125 - http-outgoing-0 << Date: Mon, 19 Oct 2020 20:00:31 GMT
+2020-10-19 13:00:31 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "27861094192732E-7"[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Lora_Hooper",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@support": "2",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "Lora Hooper",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "158",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.9999994962626734",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.0"[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Texas",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@support": "136284",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@types": "Wikidata:Q3455524,Schema:Place,Schema:AdministrativeArea,DBpedia:Region,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:AdministrativeRegion",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "Texas",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "191",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.989306558381755",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.010570431623319521"[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Dallas",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@support": "27285",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@types": "Wikidata:Q515,Wikidata:Q486972,Schema:Place,Schema:City,DBpedia:Settlement,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:City",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "Dallas",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "226",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.999911110911593",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "7.554344827793439E-5"[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/NFIL3",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@support": "8",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "NFIL3",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "250",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "1.0",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.0"[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Epithelium",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@support": "3046",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@types": "Wikidata:Q4936952,DBpedia:AnatomicalStructure",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "epithelium",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "303",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.8684371449588663",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.15148998756814175"[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Mouse",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@support": "4909",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "mouse",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "322",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.992433921441594",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.007552002757489936"[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Small_intestine",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@support": "1396",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@types": "Wikidata:Q4936952,DBpedia:AnatomicalStructure",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "small intestine",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "328",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.9996828833610166",[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "3.065339853568951E-4"[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "    }[\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "  ][\n]"
+2020-10-19 13:00:31 DEBUG wire:87 - http-outgoing-0 << "}"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "0[\r][\n]"
+2020-10-19 13:00:31 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-10-19 13:00:31 DEBUG PoolingHttpClientConnectionManager:342 - Connection [id: 0][route: {}->http://192.168.8.12:2222] can be kept alive indefinitely
+2020-10-19 13:00:31 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
+2020-10-19 13:00:31 DEBUG PoolingHttpClientConnectionManager:349 - Connection released: [id: 0][route: {}->http://192.168.8.12:2222][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-10-19 13:00:31 DEBUG PoolingHttpClientConnectionManager:409 - Connection manager is shutting down
+2020-10-19 13:00:31 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-0: Close connection
+2020-10-19 13:00:31 DEBUG PoolingHttpClientConnectionManager:415 - Connection manager shut down
+2020-10-19 13:02:23 DEBUG LoggingPlatform:46 - DBpediaSpotlight.extract NFIL3 is a transcription factor, a protein that switches certain genes on and off. Earlier studies had focused on its role in immune cells, but a team led by Lora Hooper at the University of Texas Southwestern Medical Center, Dallas, discovered that NFIL3 is also found in cells in the inner lining, or epithelium, of the mouse small intestine.
+2020-10-19 13:02:24 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2020-10-19 13:02:24 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-10-19 13:02:24 DEBUG PoolingHttpClientConnectionManager:266 - Connection request: [route: {}->http://192.168.8.12:2222][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-10-19 13:02:24 DEBUG PoolingHttpClientConnectionManager:310 - Connection leased: [id: 0][route: {}->http://192.168.8.12:2222][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-10-19 13:02:24 DEBUG MainClientExec:234 - Opening connection {}->http://192.168.8.12:2222
+2020-10-19 13:02:24 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to /192.168.8.12:2222
+2020-10-19 13:02:24 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 192.168.8.133:57943<->192.168.8.12:2222
+2020-10-19 13:02:24 DEBUG MainClientExec:255 - Executing request GET /rest/annotate/?confidence=0.5&support=0&text=NFIL3+is+a+transcription+factor%2C+a+protein+that+switches+certain+genes+on+and+off.+Earlier+studies+had+focused+on+its+role+in+immune+cells%2C+but+a+team+led+by+Lora+Hooper+at+the+University+of+Texas+Southwestern+Medical+Center%2C+Dallas%2C+discovered+that+NFIL3+is+also+found+in+cells+in+the+inner+lining%2C+or+epithelium%2C+of+the+mouse+small+intestine. HTTP/1.1
+2020-10-19 13:02:24 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2020-10-19 13:02:24 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2020-10-19 13:02:24 DEBUG headers:133 - http-outgoing-0 >> GET /rest/annotate/?confidence=0.5&support=0&text=NFIL3+is+a+transcription+factor%2C+a+protein+that+switches+certain+genes+on+and+off.+Earlier+studies+had+focused+on+its+role+in+immune+cells%2C+but+a+team+led+by+Lora+Hooper+at+the+University+of+Texas+Southwestern+Medical+Center%2C+Dallas%2C+discovered+that+NFIL3+is+also+found+in+cells+in+the+inner+lining%2C+or+epithelium%2C+of+the+mouse+small+intestine. HTTP/1.1
+2020-10-19 13:02:24 DEBUG headers:136 - http-outgoing-0 >> Accept: application/json
+2020-10-19 13:02:24 DEBUG headers:136 - http-outgoing-0 >> Host: 192.168.8.12:2222
+2020-10-19 13:02:24 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2020-10-19 13:02:24 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_172)
+2020-10-19 13:02:24 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 >> "GET /rest/annotate/?confidence=0.5&support=0&text=NFIL3+is+a+transcription+factor%2C+a+protein+that+switches+certain+genes+on+and+off.+Earlier+studies+had+focused+on+its+role+in+immune+cells%2C+but+a+team+led+by+Lora+Hooper+at+the+University+of+Texas+Southwestern+Medical+Center%2C+Dallas%2C+discovered+that+NFIL3+is+also+found+in+cells+in+the+inner+lining%2C+or+epithelium%2C+of+the+mouse+small+intestine. HTTP/1.1[\r][\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 >> "Accept: application/json[\r][\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 >> "Host: 192.168.8.12:2222[\r][\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_172)[\r][\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "server: grizzly/1.9.48[\r][\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "Date: Mon, 19 Oct 2020 20:02:24 GMT[\r][\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "e01[\r][\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "{[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "  "@text": "NFIL3 is a transcription factor, a protein that switches certain genes on and off. Earlier studies had focused on its role in immune cells, but a team led by Lora Hooper at the University of Texas Southwestern Medical Center, Dallas, discovered that NFIL3 is also found in cells in the inner lining, or epithelium, of the mouse small intestine.",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "  "@confidence": "0.5",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "  "@support": "0",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "  "@types": "",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "  "@sparql": "",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "  "@policy": "whitelist",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "  "Resources":   [[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/NFIL3",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@support": "8",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "NFIL3",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "0",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "1.0",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.0"[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Transcription_factor",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@support": "2381",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "transcription factor",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "11",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.999999999766942",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "2.330325051954496E-10"[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Protein",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@support": "53207",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "protein",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "35",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.9999998938066085",[\n]"
+2020-10-19 13:02:24 DEBUG wire:87 - http-outgoing-0 << "      "@percentageOfSecondRank": "1.0"
+2020-10-19 13:02:24 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2020-10-19 13:02:24 DEBUG headers:125 - http-outgoing-0 << server: grizzly/1.9.48
+2020-10-19 13:02:24 DEBUG headers:125 - http-outgoing-0 << Access-Control-Allow-Origin: *
+2020-10-19 13:02:24 DEBUG headers:125 - http-outgoing-0 << Content-Type: application/json
+2020-10-19 13:02:24 DEBUG headers:125 - http-outgoing-0 << Transfer-Encoding: chunked
+2020-10-19 13:02:24 DEBUG headers:125 - http-outgoing-0 << Date: Mon, 19 Oct 2020 20:02:24 GMT
+2020-10-19 13:02:24 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "27861094192732E-7"[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Lora_Hooper",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@support": "2",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "Lora Hooper",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "158",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.9999994962626734",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.0"[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Texas",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@support": "136284",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@types": "Wikidata:Q3455524,Schema:Place,Schema:AdministrativeArea,DBpedia:Region,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:AdministrativeRegion",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "Texas",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "191",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.989306558381755",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.010570431623319521"[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Dallas",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@support": "27285",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@types": "Wikidata:Q515,Wikidata:Q486972,Schema:Place,Schema:City,DBpedia:Settlement,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:City",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "Dallas",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "226",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.999911110911593",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "7.554344827793439E-5"[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/NFIL3",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@support": "8",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "NFIL3",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "250",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "1.0",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.0"[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Epithelium",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@support": "3046",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@types": "Wikidata:Q4936952,DBpedia:AnatomicalStructure",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "epithelium",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "303",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.8684371449588663",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.15148998756814175"[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Mouse",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@support": "4909",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "mouse",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "322",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.992433921441594",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.007552002757489936"[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Small_intestine",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@support": "1396",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@types": "Wikidata:Q4936952,DBpedia:AnatomicalStructure",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "small intestine",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "328",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.9996828833610166",[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "3.065339853568951E-4"[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "    }[\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "  ][\n]"
+2020-10-19 13:02:24 DEBUG wire:87 - http-outgoing-0 << "}"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "0[\r][\n]"
+2020-10-19 13:02:24 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-10-19 13:02:24 DEBUG PoolingHttpClientConnectionManager:342 - Connection [id: 0][route: {}->http://192.168.8.12:2222] can be kept alive indefinitely
+2020-10-19 13:02:24 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
+2020-10-19 13:02:24 DEBUG PoolingHttpClientConnectionManager:349 - Connection released: [id: 0][route: {}->http://192.168.8.12:2222][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-10-19 13:02:24 DEBUG PoolingHttpClientConnectionManager:409 - Connection manager is shutting down
+2020-10-19 13:02:24 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-0: Close connection
+2020-10-19 13:02:24 DEBUG PoolingHttpClientConnectionManager:415 - Connection manager shut down
+2020-10-19 13:02:40 DEBUG LoggingPlatform:46 - DBpediaSpotlight.extract NFIL3 is a transcription factor, a protein that switches certain genes on and off. Earlier studies had focused on its role in immune cells, but a team led by Lora Hooper at the University of Texas Southwestern Medical Center, Dallas, discovered that NFIL3 is also found in cells in the inner lining, or epithelium, of the mouse small intestine.
+2020-10-19 13:02:41 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2020-10-19 13:02:41 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-10-19 13:02:41 DEBUG PoolingHttpClientConnectionManager:266 - Connection request: [route: {}->http://192.168.8.12:2222][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-10-19 13:02:41 DEBUG PoolingHttpClientConnectionManager:310 - Connection leased: [id: 0][route: {}->http://192.168.8.12:2222][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-10-19 13:02:41 DEBUG MainClientExec:234 - Opening connection {}->http://192.168.8.12:2222
+2020-10-19 13:02:41 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to /192.168.8.12:2222
+2020-10-19 13:02:41 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 192.168.8.133:57944<->192.168.8.12:2222
+2020-10-19 13:02:41 DEBUG MainClientExec:255 - Executing request GET /rest/annotate/?confidence=0.5&support=0&text=NFIL3+is+a+transcription+factor%2C+a+protein+that+switches+certain+genes+on+and+off.+Earlier+studies+had+focused+on+its+role+in+immune+cells%2C+but+a+team+led+by+Lora+Hooper+at+the+University+of+Texas+Southwestern+Medical+Center%2C+Dallas%2C+discovered+that+NFIL3+is+also+found+in+cells+in+the+inner+lining%2C+or+epithelium%2C+of+the+mouse+small+intestine. HTTP/1.1
+2020-10-19 13:02:41 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2020-10-19 13:02:41 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2020-10-19 13:02:41 DEBUG headers:133 - http-outgoing-0 >> GET /rest/annotate/?confidence=0.5&support=0&text=NFIL3+is+a+transcription+factor%2C+a+protein+that+switches+certain+genes+on+and+off.+Earlier+studies+had+focused+on+its+role+in+immune+cells%2C+but+a+team+led+by+Lora+Hooper+at+the+University+of+Texas+Southwestern+Medical+Center%2C+Dallas%2C+discovered+that+NFIL3+is+also+found+in+cells+in+the+inner+lining%2C+or+epithelium%2C+of+the+mouse+small+intestine. HTTP/1.1
+2020-10-19 13:02:41 DEBUG headers:136 - http-outgoing-0 >> Accept: application/json
+2020-10-19 13:02:41 DEBUG headers:136 - http-outgoing-0 >> Host: 192.168.8.12:2222
+2020-10-19 13:02:41 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2020-10-19 13:02:41 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_172)
+2020-10-19 13:02:41 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 >> "GET /rest/annotate/?confidence=0.5&support=0&text=NFIL3+is+a+transcription+factor%2C+a+protein+that+switches+certain+genes+on+and+off.+Earlier+studies+had+focused+on+its+role+in+immune+cells%2C+but+a+team+led+by+Lora+Hooper+at+the+University+of+Texas+Southwestern+Medical+Center%2C+Dallas%2C+discovered+that+NFIL3+is+also+found+in+cells+in+the+inner+lining%2C+or+epithelium%2C+of+the+mouse+small+intestine. HTTP/1.1[\r][\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 >> "Accept: application/json[\r][\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 >> "Host: 192.168.8.12:2222[\r][\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_172)[\r][\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "server: grizzly/1.9.48[\r][\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "Date: Mon, 19 Oct 2020 20:02:41 GMT[\r][\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "e01[\r][\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "{[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "  "@text": "NFIL3 is a transcription factor, a protein that switches certain genes on and off. Earlier studies had focused on its role in immune cells, but a team led by Lora Hooper at the University of Texas Southwestern Medical Center, Dallas, discovered that NFIL3 is also found in cells in the inner lining, or epithelium, of the mouse small intestine.",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "  "@confidence": "0.5",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "  "@support": "0",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "  "@types": "",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "  "@sparql": "",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "  "@policy": "whitelist",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "  "Resources":   [[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/NFIL3",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@support": "8",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "NFIL3",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "0",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "1.0",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.0"[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Transcription_factor",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@support": "2381",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "transcription factor",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "11",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.999999999766942",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "2.330325051954496E-10"[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Protein",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@support": "53207",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "protein",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "35",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.9999998938066085",[\n]"
+2020-10-19 13:02:41 DEBUG wire:87 - http-outgoing-0 << "      "@percentageOfSecondRank": "1.0"
+2020-10-19 13:02:41 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2020-10-19 13:02:41 DEBUG headers:125 - http-outgoing-0 << server: grizzly/1.9.48
+2020-10-19 13:02:41 DEBUG headers:125 - http-outgoing-0 << Access-Control-Allow-Origin: *
+2020-10-19 13:02:41 DEBUG headers:125 - http-outgoing-0 << Content-Type: application/json
+2020-10-19 13:02:41 DEBUG headers:125 - http-outgoing-0 << Transfer-Encoding: chunked
+2020-10-19 13:02:41 DEBUG headers:125 - http-outgoing-0 << Date: Mon, 19 Oct 2020 20:02:41 GMT
+2020-10-19 13:02:41 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "27861094192732E-7"[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Lora_Hooper",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@support": "2",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "Lora Hooper",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "158",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.9999994962626734",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.0"[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Texas",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@support": "136284",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@types": "Wikidata:Q3455524,Schema:Place,Schema:AdministrativeArea,DBpedia:Region,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:AdministrativeRegion",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "Texas",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "191",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.989306558381755",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.010570431623319521"[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Dallas",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@support": "27285",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@types": "Wikidata:Q515,Wikidata:Q486972,Schema:Place,Schema:City,DBpedia:Settlement,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:City",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "Dallas",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "226",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.999911110911593",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "7.554344827793439E-5"[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/NFIL3",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@support": "8",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "NFIL3",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "250",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "1.0",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.0"[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Epithelium",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@support": "3046",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@types": "Wikidata:Q4936952,DBpedia:AnatomicalStructure",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "epithelium",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "303",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.8684371449588663",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.15148998756814175"[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Mouse",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@support": "4909",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "mouse",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "322",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.992433921441594",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.007552002757489936"[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Small_intestine",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@support": "1396",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@types": "Wikidata:Q4936952,DBpedia:AnatomicalStructure",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "small intestine",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "328",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.9996828833610166",[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "3.065339853568951E-4"[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "    }[\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "  ][\n]"
+2020-10-19 13:02:41 DEBUG wire:87 - http-outgoing-0 << "}"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "0[\r][\n]"
+2020-10-19 13:02:41 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-10-19 13:02:41 DEBUG PoolingHttpClientConnectionManager:342 - Connection [id: 0][route: {}->http://192.168.8.12:2222] can be kept alive indefinitely
+2020-10-19 13:02:41 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
+2020-10-19 13:02:41 DEBUG PoolingHttpClientConnectionManager:349 - Connection released: [id: 0][route: {}->http://192.168.8.12:2222][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-10-19 13:02:41 DEBUG PoolingHttpClientConnectionManager:409 - Connection manager is shutting down
+2020-10-19 13:02:41 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-0: Close connection
+2020-10-19 13:02:41 DEBUG PoolingHttpClientConnectionManager:415 - Connection manager shut down
+2020-10-19 13:05:50 DEBUG LoggingPlatform:46 - DBpediaSpotlight.extract NFIL3 is a transcription factor, a protein that switches certain genes on and off. Earlier studies had focused on its role in immune cells, but a team led by Lora Hooper at the University of Texas Southwestern Medical Center, Dallas, discovered that NFIL3 is also found in cells in the inner lining, or epithelium, of the mouse small intestine.
+2020-10-19 13:05:51 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2020-10-19 13:05:51 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-10-19 13:05:51 DEBUG PoolingHttpClientConnectionManager:266 - Connection request: [route: {}->http://192.168.8.12:2222][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2020-10-19 13:05:51 DEBUG PoolingHttpClientConnectionManager:310 - Connection leased: [id: 0][route: {}->http://192.168.8.12:2222][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-10-19 13:05:51 DEBUG MainClientExec:234 - Opening connection {}->http://192.168.8.12:2222
+2020-10-19 13:05:51 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to /192.168.8.12:2222
+2020-10-19 13:05:51 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 192.168.8.133:57964<->192.168.8.12:2222
+2020-10-19 13:05:51 DEBUG MainClientExec:255 - Executing request GET /rest/annotate/?confidence=0.5&support=0&text=NFIL3+is+a+transcription+factor%2C+a+protein+that+switches+certain+genes+on+and+off.+Earlier+studies+had+focused+on+its+role+in+immune+cells%2C+but+a+team+led+by+Lora+Hooper+at+the+University+of+Texas+Southwestern+Medical+Center%2C+Dallas%2C+discovered+that+NFIL3+is+also+found+in+cells+in+the+inner+lining%2C+or+epithelium%2C+of+the+mouse+small+intestine. HTTP/1.1
+2020-10-19 13:05:51 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2020-10-19 13:05:51 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2020-10-19 13:05:51 DEBUG headers:133 - http-outgoing-0 >> GET /rest/annotate/?confidence=0.5&support=0&text=NFIL3+is+a+transcription+factor%2C+a+protein+that+switches+certain+genes+on+and+off.+Earlier+studies+had+focused+on+its+role+in+immune+cells%2C+but+a+team+led+by+Lora+Hooper+at+the+University+of+Texas+Southwestern+Medical+Center%2C+Dallas%2C+discovered+that+NFIL3+is+also+found+in+cells+in+the+inner+lining%2C+or+epithelium%2C+of+the+mouse+small+intestine. HTTP/1.1
+2020-10-19 13:05:51 DEBUG headers:136 - http-outgoing-0 >> Accept: application/json
+2020-10-19 13:05:51 DEBUG headers:136 - http-outgoing-0 >> Host: 192.168.8.12:2222
+2020-10-19 13:05:51 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2020-10-19 13:05:51 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_172)
+2020-10-19 13:05:51 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 >> "GET /rest/annotate/?confidence=0.5&support=0&text=NFIL3+is+a+transcription+factor%2C+a+protein+that+switches+certain+genes+on+and+off.+Earlier+studies+had+focused+on+its+role+in+immune+cells%2C+but+a+team+led+by+Lora+Hooper+at+the+University+of+Texas+Southwestern+Medical+Center%2C+Dallas%2C+discovered+that+NFIL3+is+also+found+in+cells+in+the+inner+lining%2C+or+epithelium%2C+of+the+mouse+small+intestine. HTTP/1.1[\r][\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 >> "Accept: application/json[\r][\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 >> "Host: 192.168.8.12:2222[\r][\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.10 (Java/1.8.0_172)[\r][\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "server: grizzly/1.9.48[\r][\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "Date: Mon, 19 Oct 2020 20:05:51 GMT[\r][\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "e01[\r][\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "{[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "  "@text": "NFIL3 is a transcription factor, a protein that switches certain genes on and off. Earlier studies had focused on its role in immune cells, but a team led by Lora Hooper at the University of Texas Southwestern Medical Center, Dallas, discovered that NFIL3 is also found in cells in the inner lining, or epithelium, of the mouse small intestine.",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "  "@confidence": "0.5",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "  "@support": "0",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "  "@types": "",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "  "@sparql": "",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "  "@policy": "whitelist",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "  "Resources":   [[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/NFIL3",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@support": "8",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "NFIL3",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "0",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "1.0",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.0"[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Transcription_factor",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@support": "2381",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "transcription factor",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "11",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.999999999766942",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "2.330325051954496E-10"[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Protein",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@support": "53207",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "protein",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "35",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.9999998938066085",[\n]"
+2020-10-19 13:05:51 DEBUG wire:87 - http-outgoing-0 << "      "@percentageOfSecondRank": "1.0"
+2020-10-19 13:05:51 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2020-10-19 13:05:51 DEBUG headers:125 - http-outgoing-0 << server: grizzly/1.9.48
+2020-10-19 13:05:51 DEBUG headers:125 - http-outgoing-0 << Access-Control-Allow-Origin: *
+2020-10-19 13:05:51 DEBUG headers:125 - http-outgoing-0 << Content-Type: application/json
+2020-10-19 13:05:51 DEBUG headers:125 - http-outgoing-0 << Transfer-Encoding: chunked
+2020-10-19 13:05:51 DEBUG headers:125 - http-outgoing-0 << Date: Mon, 19 Oct 2020 20:05:51 GMT
+2020-10-19 13:05:51 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "27861094192732E-7"[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Lora_Hooper",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@support": "2",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "Lora Hooper",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "158",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.9999994962626734",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.0"[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Texas",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@support": "136284",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@types": "Wikidata:Q3455524,Schema:Place,Schema:AdministrativeArea,DBpedia:Region,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:AdministrativeRegion",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "Texas",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "191",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.989306558381755",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.010570431623319521"[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Dallas",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@support": "27285",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@types": "Wikidata:Q515,Wikidata:Q486972,Schema:Place,Schema:City,DBpedia:Settlement,DBpedia:PopulatedPlace,DBpedia:Place,DBpedia:Location,DBpedia:City",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "Dallas",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "226",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.999911110911593",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "7.554344827793439E-5"[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/NFIL3",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@support": "8",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "NFIL3",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "250",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "1.0",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.0"[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Epithelium",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@support": "3046",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@types": "Wikidata:Q4936952,DBpedia:AnatomicalStructure",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "epithelium",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "303",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.8684371449588663",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.15148998756814175"[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Mouse",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@support": "4909",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@types": "",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "mouse",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "322",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.992433921441594",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "0.007552002757489936"[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "    },[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "        {[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@URI": "http://dbpedia.org/resource/Small_intestine",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@support": "1396",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@types": "Wikidata:Q4936952,DBpedia:AnatomicalStructure",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@surfaceForm": "small intestine",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@offset": "328",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@similarityScore": "0.9996828833610166",[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "      "@percentageOfSecondRank": "3.065339853568951E-4"[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "    }[\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "  ][\n]"
+2020-10-19 13:05:51 DEBUG wire:87 - http-outgoing-0 << "}"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "0[\r][\n]"
+2020-10-19 13:05:51 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-10-19 13:05:51 DEBUG PoolingHttpClientConnectionManager:342 - Connection [id: 0][route: {}->http://192.168.8.12:2222] can be kept alive indefinitely
+2020-10-19 13:05:51 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
+2020-10-19 13:05:51 DEBUG PoolingHttpClientConnectionManager:349 - Connection released: [id: 0][route: {}->http://192.168.8.12:2222][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2020-10-19 13:05:51 DEBUG PoolingHttpClientConnectionManager:409 - Connection manager is shutting down
+2020-10-19 13:05:51 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-0: Close connection
+2020-10-19 13:05:51 DEBUG PoolingHttpClientConnectionManager:415 - Connection manager shut down
